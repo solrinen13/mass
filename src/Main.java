@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println("task №1/2.2");
 
-        double [] weightTwo = new double[]{1, 2, 3};
+        double [] weightTwo = new double[]{1.57, 7.654, 9.986};
 
         for (int i=0; i < weightTwo.length; i++)
         {
@@ -57,11 +57,11 @@ public class Main {
 
             System.out.println("task №3.1");
 
-        for (int i = weightTwo.length -1; i >= 0; i--)
+        for (int i = weight.length -1; i >= 0; i--)
         {
             if (i != 0)
-                System.out.print(weightTwo[i] + ", ");
-            else System.out.print(weightTwo[i]);
+                System.out.print(weight[i] + ", ");
+            else System.out.print(weight[i]);
 
 
         }
